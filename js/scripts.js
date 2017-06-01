@@ -1,7 +1,7 @@
 $(function(){
   var age = parseInt(prompt("How old are you?"));
 
-  if (age >= 21) {
+  if (age >= 18) {
     $("#voter").show();
   }else{
     $("#under-18").show();
